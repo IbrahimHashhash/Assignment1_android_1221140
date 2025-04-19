@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/olive_oil_card"
+    android:layout_margin="20dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        >
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/productImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"/>
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/olive_oil_name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Product Type -->
+        <TextView
+            android:id="@+id/productType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type" />
+        <TextView
+            android:id="@+id/liter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/liter" />
+
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/price"
+            android:textColor="#4CAF50"
+            android:textSize="16sp" />
+        <!-- Product Quantity -->
+        <TextView
+            android:id="@+id/productQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/quantity"
+            android:textColor="#4CAF50"
+            android:textSize="16sp" />
+
+        <!-- Button Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <Button
+                android:id="@+id/addToCartBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:color="#ebcc34"
+                android:text="@string/add_to_cart"
+                style="@style/OliveOilButton"
+                />
+
+            <Button
+                android:id="@+id/buyNowBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="@string/buy_now"
+                style="@style/OliveOilButton"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

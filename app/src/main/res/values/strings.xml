@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Zaitoona</string>
+    <string name="total_0_0_nis">Total = 0.0 NIS</string>
+    <string name="zaitoona">Zaitoona</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="liter">Liter</string>
+    <string name="type">Type</string>
+    <string name="olive_oil_name">Olive Oil Name</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="todo">TODO</string>
+    <string name="cart">cart</string>
+    <string name="quantity_selected">quantity selected</string>
+    <string name="product_image">product image</string>
+    <string name="x">x</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="search">Search</string>
+    <string name="price_range">Price Range</string>
+    <string name="min">Min</string>
+    <string name="to">to</string>
+    <string name="max">Max</string>
+    <string name="liter_range">Liter Range</string>
+    <string name="show_only">Show Only</string>
+    <string name="in_stock">In Stock</string>
+    <string name="search_products">Search products</string>
+    <string name="buy_all">Buy All</string>
+    <string name="your_cart">Your Cart</string>
+    <string name="logo">logo</string>
+    <string name="available">Available</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cartLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/cartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_cart"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/totalPriceTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/total_0_0_nis"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/buyAllButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:padding="12dp"
+        android:text="@string/buy_all"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        style="@style/OliveOilButton"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
